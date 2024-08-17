@@ -15,3 +15,7 @@ X = dataset.iloc[:, 1:-1].values
 y = dataset.iloc[:, -1].values
 
 print(dataset)
+
+# Training the Linear Regression model on the whole dataset
+lin_reg = LinearRegression()
+lin_reg.fit(X, y)
