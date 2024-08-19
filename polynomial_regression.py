@@ -52,3 +52,11 @@ plt.title("Truth or Bluff (Polynomial Regression)")
 plt.xlabel("Position Level")
 plt.ylabel("Salary")
 plt.show()
+
+# Predicting new result with Linear Regression
+salary1 = round(lin_reg.predict([[6.5]])[0], 2)
+print(salary1)
+
+# Predicting a new salary with Polynomial Regression
+salary2 = round(lin_reg_2.predict([[6.5]])[0], 2)
+print(salary2)
