@@ -29,7 +29,8 @@ lin_reg_2.fit(X_poly, y)
 
 # Visualising the Linear Regression results
 plt.scatter(X, y, color="red")
-plt.plot(X, lin_reg.predict(X), color="blue")
+plt.plot(X, lin_reg_2.predict(X_poly), color="blue")
 plt.title("Truth or Bluff")
 plt.xlabel("Position Level")
 plt.ylabel("Salary")
+plt.show()
