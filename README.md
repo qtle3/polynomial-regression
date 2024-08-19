@@ -5,3 +5,12 @@ This project demonstrates the use of both Linear and Polynomial Regression model
 ## Detailed Summary
 
 The script starts by importing a dataset containing employee position levels and their salaries. It implements both **Linear Regression** and **Polynomial Regression** models to predict salaries based on position level. The project compares the performance of the two models by visualizing their results, highlighting how polynomial regression can provide a more flexible and accurate fit for non-linear data.
+
+The script performs the following steps:
+
+1. **Data Preprocessing:** Loads the dataset and splits it into independent variable (position level) and dependent variable (salary).
+2. **Linear Regression Model:** Trains a linear regression model on the entire dataset and visualizes the results with a regression line.
+3. **Polynomial Regression Model:** Transforms the input features into polynomial features and trains a polynomial regression model (degree 4) on the entire dataset.
+4. **Visualization:** The script visualizes the results for both models, showing the difference in how linear and polynomial regression fits the data. Additionally, a higher resolution plot is created for polynomial regression to smooth the curve.
+5. **Prediction:** The script makes predictions for a position level of 6.5 using both the linear and polynomial regression models and outputs the predicted salaries.
+
