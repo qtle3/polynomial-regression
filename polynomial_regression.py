@@ -58,5 +58,5 @@ salary1 = round(lin_reg.predict([[6.5]])[0], 2)
 print(salary1)
 
 # Predicting a new salary with Polynomial Regression
-salary2 = round(lin_reg_2.predict([[6.5]])[0], 2)
+salary2 = round(lin_reg_2.predict(poly_reg.fit_transform([[6.5]]))[0], 2)
 print(salary2)
