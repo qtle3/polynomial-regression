@@ -14,3 +14,10 @@ The script performs the following steps:
 4. **Visualization:** The script visualizes the results for both models, showing the difference in how linear and polynomial regression fits the data. Additionally, a higher resolution plot is created for polynomial regression to smooth the curve.
 5. **Prediction:** The script makes predictions for a position level of 6.5 using both the linear and polynomial regression models and outputs the predicted salaries.
 
+## Key Concepts Covered
+
+- **Linear Regression:** A basic regression technique that models the relationship between independent and dependent variables by fitting a straight line.
+- **Polynomial Regression:** An extension of linear regression where the independent variable is transformed into a polynomial, allowing for better fit in cases where the data is not linearly distributed.
+- **Model Comparison:** The project demonstrates the limitations of linear regression when modeling non-linear data and how polynomial regression provides a more accurate fit.
+- **Data Visualization:** Visualizations are created to compare the two models and better understand their predictions, including a high-resolution plot for a smoother polynomial regression curve.
+- **Salary Prediction:** The script predicts salaries for a position level of 6.5 using both models and compares the predictions.
